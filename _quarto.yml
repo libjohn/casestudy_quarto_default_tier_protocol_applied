@@ -1,0 +1,18 @@
+project:
+  type: default
+  output-dir: output
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+    df-print: paged
+  pdf:
+    documentclass: report
+    margin-left: 30mm
+    margin-right: 30mm    
+    df-print: kable
+  
+editor: visual
+
